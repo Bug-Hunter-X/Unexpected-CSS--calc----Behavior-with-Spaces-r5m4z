@@ -1,0 +1,12 @@
+The solution is simple: remove any extra spaces between the operator and operands in the `calc()` function. For instance, instead of:
+
+```css
+width: calc(100% - 10 px);
+```
+
+Use:
+
+```css
+width: calc(100% - 10px);
+```
+By removing these spaces, the `calc()` function will correctly evaluate the expression.
